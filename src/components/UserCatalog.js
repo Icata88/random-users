@@ -30,7 +30,6 @@ class UserCatalog extends Component {
 	}
 
 	handleWindowWidth() {
-		console.log(window.innerWidth);
 		this.setState({windowWidth: window.innerWidth});
 	}
 

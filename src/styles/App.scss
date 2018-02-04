@@ -92,7 +92,7 @@ h1.striked, h3.striked {
 }
 
 .user_details {
-	background-color: $white-smoke;
+	border: 1px solid $iron;
 	font-size: 17px;
 	span {
 		font-weight: bold;
@@ -103,11 +103,6 @@ h1.striked, h3.striked {
 	}
 	&__img {
 		padding: 0;
-		background-color: $white;
-		border-bottom: 5px solid $white;
-	}
-	&__row {
-		border-bottom: 5px solid $white;
 	}
 }
 
